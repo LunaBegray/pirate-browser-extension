@@ -1,6 +1,3 @@
-
-Here's a simple README.md for your Pirate Translator extension:
-
 Pirate Translator Chrome Extension
 Ahoy, matey! 🏴‍☠️ This Chrome extension will translate the text on any webpage into Pirate speak, using a fun dictionary of pirate words and emojis! 🏴
 
@@ -62,7 +59,6 @@ const pirateDictionary = {
 License
 This extension is open-source, so feel free to contribute, modify, and use it in your own projects. Just be sure to give credit where credit is due, and don't forget to add a pirate emoji in your README! 🏴‍☠️
 
-This should help any user or developer understand what the extension is, how to use it, and how to modify it!
 
 
 
