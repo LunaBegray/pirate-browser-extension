@@ -49,7 +49,7 @@ chrome.runtime.onInstalled.addListener(() => {
   
   // Function to translate page text to Pirate speak
   async function translatePageWithAI() {
-    const apiKey = "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"; // Replace with your actual key
+    const apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxx"; // Replace with your actual key
     const apiUrl = "https://api-inference.huggingface.co/models/distilbert-base-uncased";
   
     const pageText = document.body.innerText.slice(0, 1000); // Limit to first 1000 characters to avoid large payload
