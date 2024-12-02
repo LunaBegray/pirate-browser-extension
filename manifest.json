@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Pirate Browser Matey",
+  "version": "1.0",
+  "description": "Arrr! A pirate-themed browser extension for ye hearty adventurers.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon48.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["pirate.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
